@@ -1,0 +1,45 @@
+$TTL 86400
+$ORIGIN fmdk.
+@                                 IN        SOA   vpn0.fmdk. admin.freemesh.dk. (
+                                  2016081401 ; serial
+                                  1h         ; refresh
+                                  15m        ; retry
+                                  1w         ; expire
+                                  1d)        ; ttl
+; Nameserver
+                                  IN        NS    vpn0
+;                                  IN        NS    vpn1
+;                                  IN        NS    vpn2
+;                                  IN        NS    vpn3
+;                                  IN        NS    vpn4
+;                                  IN        NS    vpn5
+;                                  IN        NS    vpn6
+;                                  IN        NS    vpn7
+;                                  IN        NS    vpn8
+;                                  IN        NS    vpn9
+;                                  IN        NS    vpn10
+;                                  IN        NS    vpn11
+
+; Hosts
+vpn0                    86400     IN        A     10.212.0.1
+                                            AAAA  fdf4:a50a:5c1f::fd00
+;vpn1                    86400     IN        A     10.212.1.1
+;                                            AAAA  fdf4:a50a:5c1f::fd01
+
+; NTP Server
+0.ntp.services          86400     IN        A     10.212.0.1
+                                            AAAA  fdf4:a50a:5c1f::fd00
+;1.ntp.services          86400     IN        A     10.212.1.1
+;                                            AAAA  fdf4:a50a:5c1f::fd01
+
+                                            
+; Update Server
+0.update                    86400     IN        A     10.212.0.1
+                                            AAAA  fdf4:a50a:5c1f::fd00
+;1.update                    86400     IN        A     10.212.1.1
+;                                            AAAA  fdf4:a50a:5c1f::fd01
+
+                                            
+; Nextnode
+nextnode		    86400     IN        A     10.212.15.254
+					    AAAA  fdf4:a50a:5c1f::ffff
