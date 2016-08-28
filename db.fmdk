@@ -27,9 +27,9 @@ vpn0                    86400     IN        A     10.212.0.1
 ;                                            AAAA  fdf4:a50a:5c1f::fd01
 
 ; NTP Server
-0.ntp.services          86400     IN        A     10.212.0.1
+0.ntp          86400     IN        A     10.212.0.1
                                             AAAA  fdf4:a50a:5c1f::fd00
-;1.ntp.services          86400     IN        A     10.212.1.1
+;1.ntp          86400     IN        A     10.212.1.1
 ;                                            AAAA  fdf4:a50a:5c1f::fd01
 
                                             
