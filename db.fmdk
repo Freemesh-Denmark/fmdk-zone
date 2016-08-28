@@ -1,7 +1,7 @@
 $TTL 86400
 $ORIGIN fmdk.
 @                                 IN        SOA   vpn0.fmdk. admin.freemesh.dk. (
-                                  2016081401 ; serial
+                                  2016082801 ; serial
                                   1h         ; refresh
                                   15m        ; retry
                                   1w         ; expire
